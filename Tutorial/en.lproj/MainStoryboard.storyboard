@@ -2705,9 +2705,6 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BjH-Tz-B3y">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="141" id="dc7-kY-VSH"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Apt_home.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -2892,6 +2889,20 @@
                                     <constraint firstItem="4Od-W3-4gP" firstAttribute="bottom" secondItem="Cgh-sO-yy5" secondAttribute="bottom" type="default" id="uag-Il-evH"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D6y-vf-Hi2">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="MaE-8o-zKH"/>
+                                    <constraint firstAttribute="width" constant="100" id="uXW-bJ-Zap"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="10.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.020548152649999998" green="0.027848714369999999" blue="0.23363759570000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -2904,11 +2915,14 @@
                             <constraint firstItem="mAu-ra-Ma5" firstAttribute="trailing" secondItem="BjH-Tz-B3y" secondAttribute="trailing" type="default" id="Vh2-1v-bmY"/>
                             <constraint firstAttribute="bottom" secondItem="oQJ-t1-uup" secondAttribute="bottom" constant="-1" id="act-WF-gTU"/>
                             <constraint firstItem="BjH-Tz-B3y" firstAttribute="bottom" secondItem="1gX-AI-Orp" secondAttribute="bottom" type="default" id="eMm-XT-OFT"/>
+                            <constraint firstItem="D6y-vf-Hi2" firstAttribute="centerY" secondItem="Yyj-Ak-eBT" secondAttribute="centerY" type="default" id="emy-CB-hzg"/>
                             <constraint firstItem="BjH-Tz-B3y" firstAttribute="top" secondItem="LoP-ya-tDV" secondAttribute="top" constant="344" id="fDZ-hO-l2z"/>
                             <constraint firstItem="Ixc-73-sNC" firstAttribute="leading" secondItem="LoP-ya-tDV" secondAttribute="leading" type="default" id="hTH-RJ-djd"/>
                             <constraint firstItem="Yyj-Ak-eBT" firstAttribute="top" secondItem="1gX-AI-Orp" secondAttribute="top" type="default" id="jDM-Cq-H1C"/>
                             <constraint firstItem="mAu-ra-Ma5" firstAttribute="leading" secondItem="BjH-Tz-B3y" secondAttribute="leading" type="default" id="kfe-kr-bR3"/>
+                            <constraint firstItem="D6y-vf-Hi2" firstAttribute="top" secondItem="Yyj-Ak-eBT" secondAttribute="top" type="default" id="kgs-Bh-GaT"/>
                             <constraint firstItem="mAu-ra-Ma5" firstAttribute="top" secondItem="LoP-ya-tDV" secondAttribute="top" constant="200" id="mVV-cl-M4t"/>
+                            <constraint firstAttribute="trailing" secondItem="D6y-vf-Hi2" secondAttribute="trailing" constant="276" id="pgJ-b9-nTd"/>
                             <constraint firstAttribute="trailing" secondItem="Yyj-Ak-eBT" secondAttribute="trailing" constant="374" id="qIa-oy-ggO"/>
                             <constraint firstItem="BjH-Tz-B3y" firstAttribute="top" secondItem="1gX-AI-Orp" secondAttribute="top" type="default" id="ra5-1u-tMJ"/>
                             <constraint firstItem="mAu-ra-Ma5" firstAttribute="leading" secondItem="LoP-ya-tDV" secondAttribute="leading" constant="349" id="sHj-mR-6Ms"/>
